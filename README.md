@@ -1,24 +1,15 @@
-# README
+Re Correctrice / Correcteur
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Cette partie sent la PLS et tu as raison de le penser!!!! mais lis ces lignes attentivement 👹
 
-Things you may want to cover:
+Quant tu téléchargeras, n'noublie pas les manips cools: du bundle install --without production, de l'update au besoin et du migrate si tu vois que tout part en lambeaux
 
-* Ruby version
+Lorsque tu testeras ce "super" site en local, la partie des commentaires ne fonctionnera pas et tu auras une jolie erreur 😋 !! 
+Je n'ai pas réussi à faire marcher mon @comment.save dans la méthode create
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Cependant, tu trouveras ce lien où j'ai réussi à faire les exos jusqu'à la partie 5
+  http://glacial-wildwood-67230.herokuapp.com/ 
+(au cas où tu ne l'aurais pas vu)
+  
+En ce qui concerne la mise en forme, on se revoit pour une prochaine PLS 😈
+😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘😘
