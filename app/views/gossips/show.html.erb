@@ -1,0 +1,36 @@
+<h1> ET CA BLABLATE </h1><br>
+
+<h1><%= @gossip.anonymous_author %></h1><br>
+<h2>Numéro de Gossip :<%= @gossip.id %></h2><br>
+<h2><%= @gossip.content %></h2>
+
+<div>
+	<a href=" <%= edit_gossip_path %>" class="btn btn-primary"> Edit le Gossip</a>
+ 	<a href=" <%= gossips_path %>" class="btn btn-primary"> Revenir aux Gossips</a>
+ 	<br></br>
+	<br></br>
+	<h3>Comment on This Post</h3>
+	
+	<%=form_for [@gossip, Comment.new] do |f| %>
+	
+		<div class="form-group">
+
+			<label> Rentre un pseudo </label> 
+
+			<%= f.text_field :anonymous_commentor, class:'form_control' %> 
+		
+		</div>
+
+		<div class="form-group">
+
+			<label> Fouts ton comm' et fais la/le Sal/e!! </label> 
+
+			<%= f.text_area :body, class:'form_control' %> 
+		
+			<button type=submit class="btn btn-primary">Comment!!</button>
+		
+		</div>
+	
+	<% end %>
+ 
+</div>

@@ -1,0 +1,7 @@
+<h1> Index des Gossips </h1>
+
+<% @gossips.each do |gossip| %>
+    <h2><%= gossip.anonymous_author %></h2> 
+    <h5><%= gossip.content %></h5>
+    <p><a href="<%= gossip_path(gossip.id) %>" class="btn btn-primary"> Voir Gossip</a></p>
+<% end %>
